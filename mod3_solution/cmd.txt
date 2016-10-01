@@ -1,9 +1,1 @@
-14:24 30.09.2016
 
-800600@oleand MINGW64 ~
-$ cd F:/ANG_JS2/examples
-
-800600@oleand MINGW64 /f/ANG_JS2/examples (master)
-$ browser-sync start --server --directory --files "**/*"
-
-https://davids-restaurant.herokuapp.com/menu_items.json

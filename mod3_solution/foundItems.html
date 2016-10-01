@@ -1,0 +1,10 @@
+<p class="list1">*********** THE LIST OF FOUND ITEMS  ***************************************************************</p>
+<div>
+   <ol class="list1">
+         <li ng-repeat="item in ctrlNarrow.found">
+                SHORT NAME-   {{ item.short_name }}  <br> NAME-   {{ item.name }} <br> DESCRIPTION- {{item.description  }}
+         <button ng-click="ctrlNarrow.onRemove({index: $index});">Don't want this one!</button>
+         <p>====================================================================</p>
+     </li>
+   </ol>
+ </div>
